@@ -16,11 +16,12 @@ I'll be developing a full-stack application as instructed. Code was initially wr
 - A client-side app will be developed for a user interface that is easy-to-use. 
 
 ## Architecture
+### Forms - todo/forms.py
+- A single form was implemented called 'TodoForm' which is used for text input for each referral link title. 
+
 ### Models - todo/models.py
 - A single model was implemented called 'Todo' which servses as the referral link model. As mentioned, I initially built a ToDo application using Django and JavaScript to prepare for this submission that I repurposed for the solution. This explains why 'todo' is the name of the model but the functionality is as expected.
 - Within the 'todo' model are three fields: one text field 'title' for the name of the link, one boolean field 'Completed' if the link still exists, one integer field 'hits' for the number of hits. The 'title' and 'hits' are fields are the most relevant.
-### Forms - todo/forms.py
-- A single form was implemented called 'TodoForm' which is used for text input for each referral link title. 
 
 ### Requirements - todo/requirements.txt
 The requirements for this project are outlined below. Most important requirements are python==3.5.2 (or higher) and django==2.2.3 (or higher)
@@ -57,6 +58,9 @@ The requirements for this project are outlined below. Most important requirement
 - SOAPpy==0.12.22
 - virtualenv==15.0.1
 - wstools==0.4.3
+
+### Views - todo/views.py
+
 
 ## Technical Choices: 
 ### Python for back-end development
