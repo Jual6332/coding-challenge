@@ -61,6 +61,10 @@ The requirements for this project are outlined below. Most important requirement
 
 ### Views - todo/views.py
 
+### Webpages - todo/templates/todo
+- index.html - Homepage where referral links exist and are ordered for the user.
+- landing_page.html - The landing page requested where the name of the referral link appears in the title {Wolverines} are best! and in the link url: localhost:8000/landingpage/{link_id}/{link_title}/.
+- edit_form.html - Decided to build a separate webpage for editing the referral link. After typing in the name of the referral, user is redirected to the index.html homepage again.
 
 ## Technical Choices: 
 ### Python for back-end development
@@ -86,3 +90,4 @@ The requirements for this project are outlined below. Most important requirement
 - Adding a link: Referral links are unfortunately not unique. Adding a new item that already exists will create a duplicate. I would change this by attempting to 'get' the object
 
 ## Heroku Deployment:
+Did not complete in time. Coming soon!
