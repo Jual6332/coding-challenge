@@ -91,3 +91,6 @@ The requirements for this project are outlined below. Most important requirement
 
 ## Heroku Deployment:
 Did not complete in time. Coming soon!
+
+
+## Other projects!
