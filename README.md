@@ -92,5 +92,12 @@ The requirements for this project are outlined below. Most important requirement
 ## Heroku Deployment:
 Did not complete in time. Coming soon!
 
+## How can I test this Application?
+From root directory run:
+```python
+python3 manage.py runserver
+```
+This will start the back-end server on localhost:8000.
 
 ## Other projects!
+[https://github.com/Jual6332/OTheRS_IP]
