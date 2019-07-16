@@ -22,6 +22,42 @@ I'll be developing a full-stack application as instructed. Code was initially wr
 ### Forms - todo/forms.py
 - A single form was implemented called 'TodoForm' which is used for text input for each referral link title. 
 
+### Requirements - todo/requirements.txt
+The requirements for this project are outlined below. Most important requirements are python==3.5.2 (or higher) and django==2.2.3 (or higher)
+
+beautifulsoup4==4.4.1
+chardet==2.3.0
+CppHeaderParser==2.7.4
+cycler==0.9.0
+dblatex==0.3.7.post1
+decorator==4.0.6
+defusedxml==0.4.1
+django==2.2.3
+geopy==1.11.0
+html5lib==0.999
+lxml==3.5.0
+Magic-file-extensions==0.2
+matplotlib==1.5.1
+numpy==1.11.0
+Pillow==3.1.2
+ply==3.11
+pygame===1.9.1release
+pygpgme==0.3
+pylepton==0.1.2
+pyliblzma==0.5.3
+pyparsing==2.0.3
+python==3.5.2
+python-apt==1.1.0b1+ubuntu0.16.4.2
+python-dateutil==2.4.2
+python-xlib==0.14
+pytz==2014.10
+scipy==0.17.0
+scour==0.32
+six==1.10.0
+SOAPpy==0.12.22
+virtualenv==15.0.1
+wstools==0.4.3
+
 ## Technical Choices: 
 ### Python for back-end development
 - Python is fairly easy to learn and a language I already knew.
