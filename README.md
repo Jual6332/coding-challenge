@@ -1,5 +1,4 @@
 # Ambassador Coding Challenge
-
 Our coding challenge is your opportunity to demonstrate your experience, skills, and aptitude by building a prototype of the web’s most minimal referral automation software.
 
 ## Alvey's Application
@@ -59,7 +58,12 @@ The requirements for this project are outlined below. Most important requirement
 - virtualenv==15.0.1
 - wstools==0.4.3
 
+### URLS - todo/urls.py
+-Each of the view functions below is called by a url. An example urlpattern: 
+  path('delete/<todo_id>', views.deleteTodo, name='deleteTodo') which is called from the html page when the trash icon is selected which calls this url by {% url 'deleteTodo' %} and passes in the property <todo_id>. The deleteTodo view is then selected.
+
 ### Views - todo/views.py
+-Each CRUD request is handled by a view-function in todo/views.py. The function views are addTo, deleteTodo, deleteallTodos, editTodo, saveTodo, index, landing_page. The last two are views for rendering the html files. The number of landing page visits (numLandingVisits) is a global variable that is incremented within the landingpage view and each referral link hit is handled here too.
 
 ### Webpages - todo/templates/todo
 - index.html - Homepage where referral links exist and are ordered for the user.
@@ -102,4 +106,5 @@ This will start the back-end server on localhost:8000.
 ## Other projects!
 - https://github.com/Jual6332/OTheRS_IP: A repository for the code that runs the OTheRS - Optical Thermal Regulation System. This was an aerospace project built to monitor the temperature fluctuations on-board the General Atomics satellite. This software release explores image processing, computer vision, machine learning, and other advanced algorithms. **Code written in this repo will fly to _space_ this year!** Of 5 programmers, I contributed 120 commits and oversaw more commits out of 210 total commits. I've been given permission to share this code. 12-month contract.
 - https://github.com/Jual6332/HarnessOnline: A repository for the code that runs a MERN full-stack mission planning software app. This was a research and development project for an aerospace company called OneWeb. They are currently racing Musk and Bezos to build a satellite constellation to bring connectivity to underprivileged areas and rural communities. I built the front-end components for this repo which was itself a component of a larger entity. I've been given permission to share this code. 3-month contract.
-- https://github.com/Jual6332/Geospatial-Software-Design-Matlab: An aerospace lab project to study and model the three-body problem. The three-body problem demonstrates the physics of three entities and in this case: satellite, Earth, moon. Thihs code tracks the trajectory of a theoretical satellite as it launches from the Earth's surface and attempts to fly around the moon and back to Earth. Before optimization, the satellite does crash into the moon. Our goal was to find the required fuel to assure the satellite can successfully miss the moon and fly back to Earth.
+- https://github.com/Jual6332/TaskHub-WebApp: A computer science lab project built for our software development class. A social media-type system for work that allows managers to send task requests to employees. Keeps track of employee performance based on task history. Software developed using LAMP stack, built with PHP and MySQL. This was a team of 4 project where myself and another student wrote a majority of the back-end code in PHP and front-end code in HTML/CSS/JavaScript w/ Bootstrap. Of 172 commits, I contributed 110 commits and another student made 36 commits. See our README.md here: https://github.com/Jual6332/TaskHub-WebApp/blob/master/README.md for full project breakdown.
+- https://github.com/Jual6332/Geospatial-Software-Design-Matlab: An aerospace lab project to study and model the three-body problem. The three-body problem demonstrates the physics of three entities and in this case: satellite, Earth, moon. Thihs code tracks the trajectory of a theoretical satellite as it launches from the Earth's surface and attempts to fly around the moon and back to Earth. Before optimization, the satellite does crash into the moon. Our goal was to find the required fuel to assure the satellite can successfully miss the moon and fly back to Earth. See https://github.com/Jual6332/Geospatial-Software-Design-Matlab/blob/master/Rafii_Alvey_Hw2_ASEN_4057_Report.pdf for our cool lab report and thought process. 
